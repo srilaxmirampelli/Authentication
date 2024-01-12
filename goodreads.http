@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"srilaxmi",
+    "username":"srilaxmi123",
+    "password": "srilaxmi@411",
+    "gender": "Female",
+    "location":"warangal"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"rahul",
+    "password": "rahul"
+}
